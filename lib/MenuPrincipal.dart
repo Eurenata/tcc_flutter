@@ -81,6 +81,7 @@ class MenuPrincipal extends StatelessWidget {
       return ListTile(
         leading: Icon(icone, color: Colors.white),
         title: Text(texto, style: TextStyle(color: Colors.white)),
+        hoverColor: Colors.white12,
         onTap: clique,
       );
     }
