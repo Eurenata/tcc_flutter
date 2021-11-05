@@ -12,8 +12,7 @@ class MeuAplicativo extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-       
-        primarySwatch: Colors.indigo,
+      primarySwatch: Colors.indigo,
       ),
       home: MinhaPagina(),
     );
@@ -33,11 +32,23 @@ class _MinhaPaginaEstado extends State<MinhaPagina> {
   return Scaffold(
     drawer: MenuPrincipal(),
     appBar: AppBar(
-    title:Text("CHATSchool"),
+    title:Text("ChatSchool",style: TextStyle(fontSize: 25),),
     ),
     body: Container(
-      child: Center(child: Text("CHATSchool"),
-      ),
+     width: double.infinity,
+     height: 200,
+     color: Colors.indigo,
+     child: Column(
+       children:[
+         Container(
+           width: double.infinity,
+           height: 200,
+           color: Colors.indigo,
+           child: Center(
+            child: Text("OIII" ,style: TextStyle(fontSize: 25,color:(Colors.indigo)),)
+            ),),
+         
+       ] ,),
       ),
   );
   }
