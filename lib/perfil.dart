@@ -10,10 +10,10 @@ class Perfil extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: MenuPrincipal(),
-      appBar: AppBar(title:Text("Perfil"),
+      appBar: AppBar(title:Text("Perfil" ,style: TextStyle(fontSize: 25,)),
       ),
       body: Container(
-      child: Center(child: Text("Perfil"),
+      child: Center(child: Text("Perfil",style: TextStyle(fontSize: 25,color:(Colors.indigo)),),
       ),
       ),
     );

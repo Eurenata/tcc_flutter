@@ -9,10 +9,10 @@ class Chat extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: MenuPrincipal(),
-      appBar: AppBar(title:Text("Chat"),
+      appBar: AppBar(title:Text("Chat" ,style: TextStyle(fontSize: 25,)),
       ),
       body: Container(
-      child: Center(child: Text("Chat"),
+      child: Center(child: Text("Chat",style: TextStyle(fontSize: 25,color:(Colors.indigo)),),
       ),
       ),
     );

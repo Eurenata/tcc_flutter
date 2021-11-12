@@ -10,10 +10,10 @@ class Configuracao extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: MenuPrincipal(),
-      appBar: AppBar(title:Text("Configuração"),
+      appBar: AppBar(title:Text("Configuração" ,style: TextStyle(fontSize: 25,)),
       ),
       body: Container(
-      child: Center(child: Text("Configuração"),
+      child: Center(child: Text("Configuração" ,style: TextStyle(fontSize: 25,color:(Colors.indigo)),),
       ),
       ),
     );

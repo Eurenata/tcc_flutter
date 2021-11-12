@@ -10,10 +10,10 @@ class Feed extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: MenuPrincipal(),
-      appBar: AppBar(title:Text("Feed"),
+      appBar: AppBar(title:Text("Feed" ,style: TextStyle(fontSize: 25,)),
       ),
       body: Container(
-      child: Center(child: Text("Feed"),
+      child: Center(child: Text("Feed" ,style: TextStyle(fontSize: 25,color:(Colors.indigo)),),
       ),
       ),
     );
